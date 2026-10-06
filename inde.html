@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header,footer{
+        background: navy;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+     header button{
+        background: rgb(87, 87, 255);
+        color:white;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        margin: 10px;
+    }
+
+    .s1{
+       height: 500px;
+       color: white;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhY2glMjBzY2VuZXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');  
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 200px 20px;
+    }
+    .s2{
+        height: 400px;
+        padding:30px;
+        text-align: center;
+    }
+    .s2 div{
+        display: inline-block;
+        height: 150px;
+        width: 200px;
+        padding: 50px;
+        font-size: 1.5rem;
+        color: white;
+        margin: 10px;
+        boarder-radius: 8px;
+    }
+    .s3{
+        height: 400px;
+        padding:30px;
+        text-align: center;
+    }
+    .s3 div{
+        display: inline-block;
+        width: 300px;
+        padding: 20px;
+        border: 2px solid blue;
+       boarder-radius: 10px;
+        line-height: 1.3;
+        margin: 10px;
+    }
+    .s3 div h3{
+      transform: translate(0px, -10px);
+      transition:all 0.5s;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <button>Home</button>
+        <button>About</button>
+        <button>Services</button>
+        <button>Contact</button>
+    </header>
+
+    <section class="s1">
+        <h1>Learn CSS Through projects</h1>
+        <p>This project will help you learn CSS through hands-on experience.</p>
+    </section>
+
+    <section class="s2">
+        <h1>CSS Colors</h1>
+        <div style="background: red">red</div>
+        <div style="background: green">green</div>
+        <div style="background: blue">blue</div>
+        <div style="background: violet">violet</div>
+    </section>
+
+    <section class="s3">
+        <h1>CSS Box Model</h1>
+        <div>
+            <h3>card one</h3>
+        <p>padding creates spaces around the content</p>
+        </div>
+        <div>   
+        <h3>card two</h3>
+        <p>margin creates spaces around the element</p>
+        </div>
+        <div>
+        <h3>card three</h3>
+        <p>border creates spaces around the element</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
